@@ -62,7 +62,7 @@ extension DialogsViewController: UITableViewDataSource{
         let botMessages = botData[indexPath.row].botChats
         var botMessage = ""
         
-        botMessages.count > 0 ? botMessage = botMessages[0].message : nil
+        botMessages.count > 0 ? botMessage = botMessages[botMessages.count-1].message : nil
         
         dialogCell.botNameLabel.text? = botName[indexPath.row]!
         dialogCell.messageLabel.text? = botMessage
