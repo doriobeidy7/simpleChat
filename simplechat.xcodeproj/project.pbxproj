@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		824838B3225DEE270026882D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824838B2225DEE270026882D /* AppDelegate.swift */; };
-		824838B5225DEE270026882D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824838B4225DEE270026882D /* ViewController.swift */; };
+		824838B5225DEE270026882D /* DialogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824838B4225DEE270026882D /* DialogsViewController.swift */; };
 		824838B8225DEE270026882D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824838B6225DEE270026882D /* Main.storyboard */; };
 		824838BA225DEE280026882D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824838B9225DEE280026882D /* Assets.xcassets */; };
 		824838BD225DEE280026882D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824838BB225DEE280026882D /* LaunchScreen.storyboard */; };
+		824838C5225DF2130026882D /* DialgosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824838C4225DF2130026882D /* DialgosCell.swift */; };
+		824838C7225DF28A0026882D /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824838C6225DF28A0026882D /* ChatViewController.swift */; };
+		824838CE225DF4D60026882D /* DialogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824838CD225DF4D60026882D /* DialogModel.swift */; };
+		824838D0225DF4F80026882D /* DialogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824838CF225DF4F80026882D /* DialogViewModel.swift */; };
+		824838D4225E06A40026882D /* NewDialogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824838D3225E06A40026882D /* NewDialogController.swift */; };
+		824838D6225E06F50026882D /* DialogViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824838D5225E06F50026882D /* DialogViewExtension.swift */; };
+		824838DA225E07260026882D /* ChatViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824838D9225E07260026882D /* ChatViewExtension.swift */; };
+		824838DC225E074A0026882D /* GlobalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824838DB225E074A0026882D /* GlobalExtension.swift */; };
+		8287EDFD225FDEF60043FF34 /* ChatViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8287EDFC225FDEF60043FF34 /* ChatViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		824838AF225DEE270026882D /* simplechat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simplechat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		824838B2225DEE270026882D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		824838B4225DEE270026882D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		824838B4225DEE270026882D /* DialogsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogsViewController.swift; sourceTree = "<group>"; };
 		824838B7225DEE270026882D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		824838B9225DEE280026882D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		824838BC225DEE280026882D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		824838BE225DEE280026882D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		824838C4225DF2130026882D /* DialgosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialgosCell.swift; sourceTree = "<group>"; };
+		824838C6225DF28A0026882D /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		824838CD225DF4D60026882D /* DialogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogModel.swift; sourceTree = "<group>"; };
+		824838CF225DF4F80026882D /* DialogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogViewModel.swift; sourceTree = "<group>"; };
+		824838D3225E06A40026882D /* NewDialogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDialogController.swift; sourceTree = "<group>"; };
+		824838D5225E06F50026882D /* DialogViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogViewExtension.swift; sourceTree = "<group>"; };
+		824838D9225E07260026882D /* ChatViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewExtension.swift; sourceTree = "<group>"; };
+		824838DB225E074A0026882D /* GlobalExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalExtension.swift; sourceTree = "<group>"; };
+		8287EDFC225FDEF60043FF34 /* ChatViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +72,71 @@
 		824838B1225DEE270026882D /* simplechat */ = {
 			isa = PBXGroup;
 			children = (
+				824838CC225DF3AF0026882D /* View */,
+				824838CA225DF3800026882D /* Model */,
+				824838CB225DF3880026882D /* ModelView */,
+				824838C9225DF36C0026882D /* Controller */,
 				824838B2225DEE270026882D /* AppDelegate.swift */,
-				824838B4225DEE270026882D /* ViewController.swift */,
-				824838B6225DEE270026882D /* Main.storyboard */,
 				824838B9225DEE280026882D /* Assets.xcassets */,
-				824838BB225DEE280026882D /* LaunchScreen.storyboard */,
 				824838BE225DEE280026882D /* Info.plist */,
 			);
 			path = simplechat;
+			sourceTree = "<group>";
+		};
+		824838C9225DF36C0026882D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				824838B4225DEE270026882D /* DialogsViewController.swift */,
+				824838D3225E06A40026882D /* NewDialogController.swift */,
+				824838C6225DF28A0026882D /* ChatViewController.swift */,
+				824838D2225E06710026882D /* Extension */,
+				824838D1225DF50A0026882D /* Cells */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		824838CA225DF3800026882D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				824838CD225DF4D60026882D /* DialogModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		824838CB225DF3880026882D /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				824838CF225DF4F80026882D /* DialogViewModel.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		824838CC225DF3AF0026882D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				824838B6225DEE270026882D /* Main.storyboard */,
+				824838BB225DEE280026882D /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		824838D1225DF50A0026882D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				824838C4225DF2130026882D /* DialgosCell.swift */,
+				8287EDFC225FDEF60043FF34 /* ChatViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		824838D2225E06710026882D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				824838D5225E06F50026882D /* DialogViewExtension.swift */,
+				824838D9225E07260026882D /* ChatViewExtension.swift */,
+				824838DB225E074A0026882D /* GlobalExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +210,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				824838B5225DEE270026882D /* ViewController.swift in Sources */,
+				824838D0225DF4F80026882D /* DialogViewModel.swift in Sources */,
+				824838D4225E06A40026882D /* NewDialogController.swift in Sources */,
+				824838B5225DEE270026882D /* DialogsViewController.swift in Sources */,
+				824838C5225DF2130026882D /* DialgosCell.swift in Sources */,
+				824838C7225DF28A0026882D /* ChatViewController.swift in Sources */,
+				824838DA225E07260026882D /* ChatViewExtension.swift in Sources */,
+				824838D6225E06F50026882D /* DialogViewExtension.swift in Sources */,
+				824838DC225E074A0026882D /* GlobalExtension.swift in Sources */,
+				824838CE225DF4D60026882D /* DialogModel.swift in Sources */,
+				8287EDFD225FDEF60043FF34 /* ChatViewCell.swift in Sources */,
 				824838B3225DEE270026882D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
